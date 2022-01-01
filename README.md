@@ -1,5 +1,5 @@
 
-# Desafio de Projeto sobre Git/Github da DIO
+# Projetos e desafios DIO
 > Repositório criado para o Desafio de Projeto e onde irei guardar meu material de estudo desenvolvido nos bootcamps da Dio.
 
 ## Links úteis:
