@@ -1,0 +1,62 @@
+body {   /*ajustando cor do body, tipo da fonte, largura máxima, centralizando a página*/
+    background-color: #f7f7f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+.photo {
+    border: 1px solid #505050;
+    border-radius: 50%;
+}
+
+#title, .subtitle, .post_title {   /*ajustando cor do title(h1), subtitle(h2) e post title(h3)*/ 
+    color: #505050;
+}
+
+#title {
+    font-size: 40px;                /* Ajustando tamanho da fonte e colocando em caixa alta*/
+    text-transform: uppercase;
+}
+
+a {                                 /*ajustando textos linkados*/
+    text-decoration: line-through;
+    color: #505050;
+}
+
+.post_title {           /*configurando tamanho, tipo da fonte, zerando a margem e colocando somente inferior */
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {                /*ajustando cor do article*/
+    background-color: #fff;
+    padding: 15px;     /*add padding: espacamento entre conteudo e borda*/
+    border: 3px solid #505050;  /*add uma borda*/
+    margin-bottom: 15px;     /*add uma margem inferior*/
+    border-radius: 5px;      /*arredondar uma borda*/
+}
+
+.post_content {  /*zera a margem, add margem somente na parte inferior,
+                 põe primeiras letras do texto em maiúsculas, alinhamento do texto justificável */
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.post_image {         /*add margem inferior e largura(adaptando a imagem na caixa)*/
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.contacts_list {   /*mudar os marcadores da lista, zerando padding*/
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contacts_list li a {   /*tirando o risco dos textos da lista*/
+    text-decoration: none;
+}
