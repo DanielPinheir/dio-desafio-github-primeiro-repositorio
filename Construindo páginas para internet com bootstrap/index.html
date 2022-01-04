@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minha Página</title>   <!--Titulo da pagina-->
+        <meta charset="utf-8">         <!--estilo da letra-->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> <!--importando biblioteca-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">   <!--importando um arquivo css-->
+    </head>
+    <body>   <!--corpo da página-->
+        
+        <nav class="navbar navbar-expand-lg navbar-light margin">   <!--criando uma barra de navegação grande e clara-->
+            <a class="navbar-brand" href="#">
+                <img src="imagens/global-labs2.png" width="120" height="100">  <!--inserindo uma imagem-->
+            </a>
+            <div class="collapse navbar-collapse">  <!--divisão, container para conteúdo de fluxo, usado para fins de estilo-->
+                <ul class="navbar-nav">             <!--criando uma lista desordenada-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem somos</a> <!--criando e linkando um item-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="quemsomos">  <!--crindo um id e classe para linkar com item da lista-->
+            <div class="container-fluid quem-somos text-center margin">
+                <h3 class="margin">Quem somos</h3>
+                <img src="imagens/time2.jpg" class="rounded-circle" width="400" height="400">
+                <h3>Somos um time comprometido com os resultados</h3>
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <div class="container-fluid text-center margin parceiros">
+                <h3 class="margin">PARCEIROS</h3>
+                <div class="container">    <!--dividir categoria parceiros em três colunas com figuras-->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="imagens/dio2.png" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="imagens/dio2.png" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="imagens/dio2.png" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div class="container-fluid text-center margin servicos">
+                <h3 class="margin">SERVIÇOS</h3>
+                <div class="container">  <!--dividir categoria serviços em três colunas com figuras e texto-->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>O melhor cartão também possui o melhor app, com diversos benefícios para nossos clientes.</p>
+                            <img src="imagens/app.jpg" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <p>Acesse nossos serviços e encontre as melhores ofertas com os maiores cashbacks do mercado.</p>
+                            <img src="imagens/site.jpg" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <p>Temos as melhores opções de investimentos para todos os tipos de perfis. Acesse e fale com nossa equipe.</p>
+                            <img src="imagens/site2.jpg" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid text-center bg-footer margin">
+            <p>Desenvolvido por Daniel Pinheiro</p>
+        </footer>
+    
+    </body>
+</html>
