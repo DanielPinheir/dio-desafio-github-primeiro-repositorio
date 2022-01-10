@@ -2,10 +2,11 @@
 
 //criando função
 function trocaPares(lista) {
-    if (!lista.length) return -1;  
-    let listaFinal = [];
+    if (!lista) return -1;  //tratando lista vazia, falsa, indefinida
+    if (!lista.length) return -1;   
+    let listaFinal = [];  //criando uma nova lista
     for (let i = 0; i < lista.length; i++) {
-        (lista[i] % 2 === 0) ? listaFinal.push(0) : listaFinal.push(lista[i]);        
+        (lista[i] % 2 === 0) ? listaFinal.push(0) : listaFinal.push(lista[i]);      //jogando valores tratados na nova lista  
     }
     console.log(listaFinal);
 }
