@@ -1,52 +1,85 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>
-            Daniel Pinheiro</title>  <!-- integrando o CSS-->
-            <link rel="stylesheet" href="C:\Users\Daniel\Desktop\ProjetosGit\Projeto Bootcamp Dio\dio-desafio-github-primeiro-repositorio\Introdução a criação de websites com HTML5 e CSS3\style.css">
-    </head>
-    <body>
-        <header>  <!-- cabeçalho da página e figura-->
-            <img src="C:\Users\Daniel\Desktop\FotoDaniel1.jpg" alt="Foto Perfil Daniel" class="photo">
-            <h1 id="title">Daniel Pinheiro</h1>  <!-- titulo do conteúdo e declarando ID-->
+  <head>
+    <meta charset="utf-8" />
+    <title>Daniel Pinheiro</title>
+    <!-- integrando o CSS-->
+    <link
+      rel="stylesheet"
+      href="C:\Users\Daniel\Desktop\ProjetosGit\Projeto Bootcamp Dio\dio-desafio-github-primeiro-repositorio\Introdução a criação de websites com HTML5 e CSS3\style.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- cabeçalho da página e figura-->
+      <img
+        src="C:\Users\Daniel\Desktop\Daniel\FotoDaniel1.jpg"
+        alt="Foto Perfil Daniel"
+        class="photo"
+      />
+      <h1 id="title">Daniel Pinheiro</h1>
+      <!-- titulo do conteúdo e declarando ID-->
+    </header>
+    <section>
+      <!-- lista de posts-->
+      <header>
+        <h2 class="subtitle">Posts</h2>
+        <!-- Titulo dela e declarando classe subtitulo-->
+      </header>
+      <article class="post">
+        <!-- nome do nosso post, imagem e declaraçãode classe-->
+        <header>
+          <h3 class="post_title">Post #1</h3>
+          <!-- declarando classe titulo de postagem e abaixo declarando classe imagem-->
+          <img
+            src="C:\Users\Daniel\Desktop\dev1.jpg"
+            alt="Editor de texto contendo código html"
+            class="post_image"
+          />
         </header>
-        <section>  <!-- lista de posts-->
-            <header>
-                <h2 class="subtitle">Posts</h2>  <!-- Titulo dela e declarando classe subtitulo-->
-            </header>
-            <article class="post">  <!-- nome do nosso post, imagem e declaraçãode classe-->
-                <header>
-                    <h3 class="post_title">Post #1</h3>  <!-- declarando classe titulo de postagem e abaixo declarando classe imagem-->
-                    <img src="C:\Users\Daniel\Desktop\dev1.jpg" alt="Editor de texto contendo código html" class="post_image">
-                </header>
-                <p class="post_content">  <!-- adicionando um texto ficticio ao nosso post, com texto linkando para um site
+        <p class="post_content">
+          <!-- adicionando um texto ficticio ao nosso post, com texto linkando para um site
                      e abrindo em outra aba, e texto linkando para um envio de email, declarando classe-->
-                    Lorem ipsum dolor sit amet, <a href="https://www.linkedin.com/in/daniel-pinheiro-machado-9874329a/"
-                    target="_blank">consectetur adipiscing</a> elit. Vestibulum pellentesque
-                    congue justo eu ultrices. <a href="mailto:dyelzim@gmail.com">Aenean fermentum</a> semper turpis, 
-                    nec pulvinar lorem condimentum sit amet. Integer nec condimentum arcu. Fusce eget 
-                    quam quis urna pretium luctus. Morbi rhoncus mollis aliquet. Sed ac augue eros. 
-                    Sed finibus scelerisque tortor id aliquam. Nullam lacinia arcu libero. Vestibulum 
-                    sed imperdiet arcu, eu fermentum dui. In maximus sapien sem, ut semper risus semper eu. 
-                    Pellentesque malesuada ipsum sit amet odio faucibus, a finibus libero congue. Donec 
-                    nisi odio, molestie vitae ipsum a, accumsan finibus leo. Quisque ac eleifend odio, 
-                    id consectetur felis. Mauris vehicula tempor eleifend. Praesent a ornare massa.
-                </p>   
-            </article>
-        </section>
-        <footer>  <!-- add lista de contatos ao rodapé-->
-            <ul class="contacts_list">    <!-- add lista não ordenada e estilizando-->
-                <li>
-                    <a href="mailto:danielpinheiro79@yahoo.com.br">danielpinheiro79@yahoo.com.br</a> 
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/daniel-pinheiro-machado-9874329a/" target="_blank">Linkedin</a>
-                </li>
-                <li>
-                    <a href="https://github.com/DanielPinheir" target="_blank">Github</a>
-                </li>
-            </ul>
-        </footer>  
-    </body>
+          Lorem ipsum dolor sit amet,
+          <a
+            href="https://www.linkedin.com/in/daniel-pinheiro-machado-9874329a/"
+            target="_blank"
+            >consectetur adipiscing</a
+          >
+          elit. Vestibulum pellentesque congue justo eu ultrices.
+          <a href="mailto:dyelzim@gmail.com">Aenean fermentum</a> semper turpis,
+          nec pulvinar lorem condimentum sit amet. Integer nec condimentum arcu.
+          Fusce eget quam quis urna pretium luctus. Morbi rhoncus mollis
+          aliquet. Sed ac augue eros. Sed finibus scelerisque tortor id aliquam.
+          Nullam lacinia arcu libero. Vestibulum sed imperdiet arcu, eu
+          fermentum dui. In maximus sapien sem, ut semper risus semper eu.
+          Pellentesque malesuada ipsum sit amet odio faucibus, a finibus libero
+          congue. Donec nisi odio, molestie vitae ipsum a, accumsan finibus leo.
+          Quisque ac eleifend odio, id consectetur felis. Mauris vehicula tempor
+          eleifend. Praesent a ornare massa.
+        </p>
+      </article>
+    </section>
+    <footer>
+      <!-- add lista de contatos ao rodapé-->
+      <ul class="contacts_list">
+        <!-- add lista não ordenada e estilizando-->
+        <li>
+          <a href="mailto:danielpinheiro79@yahoo.com.br"
+            >danielpinheiro79@yahoo.com.br</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/daniel-pinheiro-machado-9874329a/"
+            target="_blank"
+            >Linkedin</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/DanielPinheir" target="_blank">Github</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
